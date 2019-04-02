@@ -26,6 +26,9 @@ class App extends Component {
       } ).then(jsondata => {
       this.setState({ articles: jsondata.articles })
       })
+        
+    
+      
       
   }
 
